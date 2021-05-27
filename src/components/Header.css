@@ -1,0 +1,16 @@
+.Wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.HeadLänk{
+    text-decoration: none;
+    font-size: 14px;
+    color: black; 
+    transition: ease-in-out 1s;
+}
+
+.HeadLänk:hover {
+    color:white;
+}
