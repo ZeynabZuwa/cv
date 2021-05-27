@@ -1,5 +1,15 @@
 .Utbildningar{
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-image: linear-gradient(rgb(209, 107, 165, 1), rgb(209, 107, 165, 0));
+    height: 100%;
 
+}
+
+@media screen and ( max-width: 500px){
+
+    .Utb{
+        margin:4rem 2rem 2rem;
+    }   
 }

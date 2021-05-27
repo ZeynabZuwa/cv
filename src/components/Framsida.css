@@ -1,4 +1,25 @@
 .Framsida{
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-image: linear-gradient(rgb(209, 107, 165, 1), rgb(209, 107, 165, 0));
+    height: 100%;
+}
+
+.KunskapIkon{
+    margin: 2rem 8rem;
+}
+
+.Framsida img {
+    align-self: center;
+}
+
+@media screen and ( max-width: 500px){
+
+    .Framsida h1{
+        margin: 4rem 0;
+    }
+    .zay {
+        width: 300px;
+    }   
 }

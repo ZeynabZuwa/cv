@@ -2,8 +2,9 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color:#86A8E7;
+    /* background-color:#86A8E7; */
     align-items: center;
+    background-image: linear-gradient(rgb(209, 107, 165, 0), rgb(67, 99, 158));
 }
 
 .Kontakt{
@@ -14,4 +15,17 @@
     width: 16rem;
     display: flex;
     justify-content: space-between;
+}
+
+@media screen and ( max-width: 500px){
+
+    .FootLänk{
+        width: 8rem;
+        display: flex;
+        justify-content: space-around;
+    }
+    .smallLinks{
+        width: 60px;
+        padding: 1rem;
+    }
 }

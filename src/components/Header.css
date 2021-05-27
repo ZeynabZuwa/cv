@@ -14,3 +14,10 @@
 .HeadLänk:hover {
     color:white;
 }
+
+@media screen and ( max-width: 500px){
+    .HeadLänk {
+        display: none;
+    }
+   
+}
