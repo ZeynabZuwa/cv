@@ -8,13 +8,14 @@ function Footer() {
         <div className="Footer">
 
             <section className="Kontakt">
-            <h5>Kontakt:</h5>
+            <h3>Kontakt:</h3>
             
-            <h6>Topasgatan 81 <br/>
-                421 48 Västra Frölunda <br/>
+            <h4>
                 +46 76 - 558 73 56 <br/>
                 zayzuwa@gmail.com <br/>
-            </h6>
+                Topasgatan 81 <br/>
+                421 48 Västra Frölunda <br/>
+            </h4>
             </section>
 
             <section className="FootLänk"> 

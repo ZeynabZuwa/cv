@@ -14,7 +14,7 @@ function Framsida() {
     return (
         <div className="Framsida">
             <Header />
-            <h1>Välkommen <br/> till Zeynab Zuwas CV!</h1>
+            <h1>Välkommen <br/> till Zeynab Zuwas CV! <br/> Framtida .NET utvecklare</h1>
             <img className="zay"src={zay} alt="zay" width = "400px" />
 
             <h2>Jag har grundläggande kunskaper inom: </h2>

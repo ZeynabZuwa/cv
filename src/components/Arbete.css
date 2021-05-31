@@ -4,7 +4,21 @@
     justify-content: space-between;
     background-image: linear-gradient(rgb(209, 107, 165, 1), rgb(209, 107, 165, 0));
     height: 100%;
+    background-size: cover;   
+    top: 0;   
+    left: 0;   
+    bottom: 0;   
+    right: 0;   
+    position: absolute;   
+    
 
+}
+
+.Erfarenhet{
+    margin: 100px 200px ; 
+    max-width: 500px;
+    align-self: center;
+   
 }
 
 ol.a{
@@ -12,9 +26,6 @@ ol.a{
     list-style-position: inside;
 }
 
-.Erfarenhet{
-    margin: 0 8rem ;
-}
 
 @media screen and ( max-width: 500px){
 

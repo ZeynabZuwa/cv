@@ -8,10 +8,10 @@ function Header() {
         <div className="Header">
             <Nav />
             <section className="Wrapper">
-                <Link className="HeadLänk" to='/'> <h4>Hem</h4> </Link>
-                <Link className="HeadLänk" to='/Utbildningar'> <h4>Utbildningar</h4> </Link>
-                <Link className="HeadLänk" to='/Arbetslivserfarenhet'> <h4>Arbetslivserfarenhet</h4> </Link>
-                <Link className="HeadLänk" to='/OmMig'> <h4>Om mig</h4> </Link>
+                <Link className="HeadLänk" to='/'> <h3>Hem</h3> </Link>
+                <Link className="HeadLänk" to='/Utbildningar'> <h3>Utbildningar</h3> </Link>
+                <Link className="HeadLänk" to='/Arbetslivserfarenhet'> <h3>Arbetslivserfarenhet</h3> </Link>
+                <Link className="HeadLänk" to='/OmMig'> <h3>Om mig</h3> </Link>
                 
             </section>
             

@@ -1,7 +1,9 @@
+
 .Wrapper{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+   
 }
 
 .HeadLänk{
@@ -9,6 +11,7 @@
     font-size: 14px;
     color: black; 
     transition: ease-in-out 1s;
+    
 }
 
 .HeadLänk:hover {
