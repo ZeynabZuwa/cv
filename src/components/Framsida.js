@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 import Header from '../Header';
 import Footer from './Footer';
 import './Framsida.css';
@@ -10,12 +10,36 @@ import reactpic from '../SVG/react-original-wordmark.svg'
 import sql from '../SVG/microsoftsqlserver-plain-wordmark.svg'
 import zay from '../SVG/zay.svg'
 
-function Framsida() {
+
+
+class  Framsida extends Component {
+    
+   
+    constructor(){
+        super();
+        this.state = {
+          numberOfRepos: 0
+    
+        }
+      }
+      componentDidMount() {
+        fetch('https://api.github.com/users/ZeynabZuwa/repos')
+        .then(response => response.json())
+        .then(json => {
+            console.log(json.length)
+           this.setState({
+             numberOfRepos: json.length
+           })
+        });
+      }
+    render(){
     return (
         <div className="Framsida">
             <Header />
             <h1>Välkommen <br/> till Zeynab Zuwas CV! <br/> Framtida .NET utvecklare</h1>
             <img className="zay"src={zay} alt="zay" width = "400px" />
+
+            <p>Number of repos in my github right now: {this.state.numberOfRepos}</p>
 
             <h2>Jag har grundläggande kunskaper inom: </h2>
 
@@ -32,6 +56,7 @@ function Framsida() {
             <Footer/>
         </div>
     )
+    }
 }
 
 export default Framsida

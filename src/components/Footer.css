@@ -1,22 +1,18 @@
 .Footer{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     background-image: linear-gradient(rgb(209, 107, 165, 0), rgb(67, 99, 158));
-}
-
-.Kontakt{
-    color: black;
-    padding: 25px 150px 25px 400px;
     
 }
 
-.FootLänk{
-    width: 16rem;
-    display: flex;
-    justify-content: space-between;
-    padding: 25px 350px 25px 250px;
+.Kontakt{
+    color: black;    
+}
+
+.smallLinks{    
+    padding: 1rem;
 }
 
 @media screen and ( max-width: 500px){
@@ -30,7 +26,9 @@
         width: 60px;
         padding: 1rem;
     }
-    .Footer{
-        margin-bottom: 0px;
+    .kon, .takt{
+        font-size: 10px;
+
     }
+   
 }

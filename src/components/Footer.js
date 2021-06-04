@@ -8,9 +8,9 @@ function Footer() {
         <div className="Footer">
 
             <section className="Kontakt">
-            <h3>Kontakt:</h3>
+            <h3 className="kon">Kontakt:</h3>
             
-            <h4>
+            <h4 className="takt">
                 +46 76 - 558 73 56 <br/>
                 zayzuwa@gmail.com <br/>
                 Topasgatan 81 <br/>
