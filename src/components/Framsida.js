@@ -39,7 +39,7 @@ class  Framsida extends Component {
             <h1>Välkommen <br/> till Zeynab Zuwas CV! <br/> Framtida .NET utvecklare</h1>
             <img className="zay"src={zay} alt="zay" width = "400px" />
 
-            <p>Number of repos in my github right now: {this.state.numberOfRepos}</p>
+           
 
             <h2>Jag har grundläggande kunskaper inom: </h2>
 
@@ -50,6 +50,7 @@ class  Framsida extends Component {
                 <img src={javascript} alt="javascript" width = "100px" />
                 <img src={reactpic} alt="reactpic" width = "100px" />
                 <img src={sql} alt="sql" width = "100px" />
+                <p>Jag har {this.state.numberOfRepos} st repos i mitt github!</p>
 
             </section>
 

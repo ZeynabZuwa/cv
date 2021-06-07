@@ -13,8 +13,7 @@ function Footer() {
             <h4 className="takt">
                 +46 76 - 558 73 56 <br/>
                 zayzuwa@gmail.com <br/>
-                Topasgatan 81 <br/>
-                421 48 Västra Frölunda <br/>
+                
             </h4>
             </section>
 
