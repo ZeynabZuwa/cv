@@ -22,4 +22,4 @@ But I have also manage to delpoy the project using [GitHub Pages]( https://zeyna
 by just clicking on the GitHub Pages link, and you need to have internet on your device to do that :hand_over_mouth:. \
 The website is responsive so it works great using your computer but also smaller devices such as iPads and smartphones.
  
-Thank you for taking your time and please have a look out on mi GitHub for more exiting projects to come! :grin:
+Thank you for taking your time and please have a look out on my GitHub for more exiting projects to come! :grin:
